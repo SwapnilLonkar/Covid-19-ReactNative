@@ -32,7 +32,10 @@ export default function App() {
 
   return (
     
-     <View style={{marginTop: 30, flex:1}} >
+     <View style={{marginTop: 30, flex:1, backgroundColor: '#e6c385'}} >
+     <Text style={{ fontSize: 25, fontWeight: 'bold', textAlign:'center' }}>
+      Covid19 Status
+     </Text>
      <View style={USReportStyles.USAReportContainer}>
           <Text style={USReportStyles.titleUSAReport}>
             Global Report
